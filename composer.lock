@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "281c84745a51a14040cc9d0bd2dcf164",
+    "content-hash": "be69932fcf2f9a380594ccb2b500433f",
     "packages": [
         {
             "name": "2amigos/yii2-file-upload-widget",
@@ -262,6 +262,26 @@
             ]
         },
         {
+            "name": "bower-asset/jcrop",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tapmodo/Jcrop.git",
+                "reference": "f68e8f79ab53f871796b7a4b555a6b5517b6b8cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tapmodo/Jcrop/zipball/f68e8f79ab53f871796b7a4b555a6b5517b6b8cd",
+                "reference": "f68e8f79ab53f871796b7a4b555a6b5517b6b8cd",
+                "shasum": null
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ],
+            "time": "2014-07-16T00:18:58+00:00"
+        },
+        {
             "name": "bower-asset/jquery",
             "version": "3.2.1",
             "source": {
@@ -274,6 +294,54 @@
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/77d2a51d0520d2ee44173afdf4e40a9201f5964e",
                 "reference": "77d2a51d0520d2ee44173afdf4e40a9201f5964e",
                 "shasum": null
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/jquery-file-upload",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueimp/jQuery-File-Upload.git",
+                "reference": "7d1d64e4d4e2a30cd087fe27355183db980aa785"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/7d1d64e4d4e2a30cd087fe27355183db980aa785",
+                "reference": "7d1d64e4d4e2a30cd087fe27355183db980aa785",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/blueimp-canvas-to-blob": ">=2.1.1",
+                "bower-asset/blueimp-load-image": ">=1.13.0",
+                "bower-asset/blueimp-tmpl": ">=2.5.4",
+                "bower-asset/jquery": ">=1.6"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ],
+            "time": "2018-01-23T11:31:33+00:00"
+        },
+        {
+            "name": "bower-asset/jquery-ui",
+            "version": "1.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jqueryui.git",
+                "reference": "44ecf3794cc56b65954cc19737234a3119d036cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/44ecf3794cc56b65954cc19737234a3119d036cc",
+                "reference": "44ecf3794cc56b65954cc19737234a3119d036cc",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.6"
             },
             "type": "bower-asset",
             "license": [
@@ -400,6 +468,46 @@
                 "markdown-extra"
             ],
             "time": "2018-01-17T11:51:05+00:00"
+        },
+        {
+            "name": "creocoder/yii2-nested-sets",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/creocoder/yii2-nested-sets.git",
+                "reference": "cb8635a459b6246e5a144f096b992dcc30cf9954"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/creocoder/yii2-nested-sets/zipball/cb8635a459b6246e5a144f096b992dcc30cf9954",
+                "reference": "cb8635a459b6246e5a144f096b992dcc30cf9954",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "creocoder\\nestedsets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Kochetov",
+                    "email": "creocoder@gmail.com"
+                }
+            ],
+            "description": "The nested sets behavior for the Yii framework",
+            "keywords": [
+                "nested sets",
+                "yii2"
+            ],
+            "time": "2015-01-27T10:53:51+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -718,6 +826,54 @@
             "time": "2017-08-01T04:05:16+00:00"
         },
         {
+            "name": "notgosu/yii2-meta-tag-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/notgosu/yii2-meta-tag-module.git",
+                "reference": "5b0becc8fc0d755a6c46ec5cfd5425393e9355f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/notgosu/yii2-meta-tag-module/zipball/5b0becc8fc0d755a6c46ec5cfd5425393e9355f3",
+                "reference": "5b0becc8fc0d755a6c46ec5cfd5425393e9355f3",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "notgosu\\yii2\\modules\\metaTag\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Naumenko Pavel",
+                    "email": "not.gosu@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Pushkin Ivan",
+                    "email": "imetalguardi+yii2@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 meta tag module for creating and setting meta tags for your site",
+            "homepage": "https://github.com/notgosu/yii2-meta-tag-module",
+            "keywords": [
+                "meta tag",
+                "seo",
+                "yii2"
+            ],
+            "time": "2017-11-07T13:53:33+00:00"
+        },
+        {
             "name": "pendalf89/yii2-blog",
             "version": "dev-master",
             "source": {
@@ -874,6 +1030,144 @@
             "time": "2014-12-08T15:47:22+00:00"
         },
         {
+            "name": "sergmoro1/yii2-blog-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergmoro1/yii2-blog-tools.git",
+                "reference": "00f6f0d042cbdd414e07ab854f726167ee1597ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergmoro1/yii2-blog-tools/zipball/00f6f0d042cbdd414e07ab854f726167ee1597ab",
+                "reference": "00f6f0d042cbdd414e07ab854f726167ee1597ab",
+                "shasum": ""
+            },
+            "require": {
+                "creocoder/yii2-nested-sets": "^0.9.0",
+                "notgosu/yii2-meta-tag-module": "dev-master",
+                "php": ">=5.4.0",
+                "sergmoro1/yii2-byone-uploader": "dev-master",
+                "sergmoro1/yii2-lookup": "dev-master",
+                "vova07/yii2-imperavi-widget": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sergmoro1\\blog\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Morozov",
+                    "email": "sergmoro1@ya.ru"
+                }
+            ],
+            "description": "Blog tools. Posts, Tags, Rubrics, Comments backend management. Tag cloud, Rubric Tree (Nested Set), Ricent Comments widgets.",
+            "keywords": [
+                "blog",
+                "comment",
+                "rubric",
+                "tag",
+                "yii2"
+            ],
+            "time": "2018-02-02T14:55:22+00:00"
+        },
+        {
+            "name": "sergmoro1/yii2-byone-uploader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergmoro1/yii2-byone-uploader.git",
+                "reference": "0b6c1b8214efd5e3686d4260ee45849b5c5d5adf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergmoro1/yii2-byone-uploader/zipball/0b6c1b8214efd5e3686d4260ee45849b5c5d5adf",
+                "reference": "0b6c1b8214efd5e3686d4260ee45849b5c5d5adf",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jcrop": "*",
+                "bower-asset/jquery-file-upload": "*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-jui": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sergmoro1\\uploader\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Morozov",
+                    "email": "sergmoro1@ya.ru"
+                }
+            ],
+            "description": "Widget for file upload. Using Blueimp and JCrop jQuery plugins. Easy setup, quick start.",
+            "keywords": [
+                "file",
+                "image",
+                "upload",
+                "uploader",
+                "yii2"
+            ],
+            "time": "2018-02-01T09:22:00+00:00"
+        },
+        {
+            "name": "sergmoro1/yii2-lookup",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergmoro1/yii2-lookup.git",
+                "reference": "b59e294b78ceb42ba4595c25331693e7bbacd246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergmoro1/yii2-lookup/zipball/b59e294b78ceb42ba4595c25331693e7bbacd246",
+                "reference": "b59e294b78ceb42ba4595c25331693e7bbacd246",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sergmoro1\\lookup\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Morozov",
+                    "email": "sergmoro1@ya.ru"
+                }
+            ],
+            "description": "Dictionary for seldom changed items.",
+            "keywords": [
+                "dictionary",
+                "lookup",
+                "yii2"
+            ],
+            "time": "2018-01-13T21:54:17+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "5.x-dev",
             "source": {
@@ -1018,6 +1312,61 @@
                 "wysiwyg"
             ],
             "time": "2018-01-29T13:34:32+00:00"
+        },
+        {
+            "name": "vova07/yii2-imperavi-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vova07/yii2-imperavi-widget.git",
+                "reference": "45eec82605e30507545e7da86b3341eb39e82f1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vova07/yii2-imperavi-widget/zipball/45eec82605e30507545e7da86b3341eb39e82f1e",
+                "reference": "45eec82605e30507545e7da86b3341eb39e82f1e",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1",
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "vova07\\imperavi\\": "src",
+                    "vova07\\imperavi\\tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Crudu Vasile",
+                    "email": "bazillio07@yandex.ru",
+                    "homepage": "https://github.com/vova07",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The imperavi redactor widget for Yii 2 framework.",
+            "homepage": "https://github.com/vova07/yii2-imperavi-widget",
+            "keywords": [
+                "Redactor",
+                "extension",
+                "imperavi",
+                "widget",
+                "wysiwyg",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2018-01-28T19:57:16+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -1276,6 +1625,52 @@
                 "yii2"
             ],
             "time": "2017-08-01T17:40:57+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-jui",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-jui.git",
+                "reference": "10492270c9a625e4785b59a1ac6155908eac8e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/10492270c9a625e4785b59a1ac6155908eac8e37",
+                "reference": "10492270c9a625e4785b59a1ac6155908eac8e37",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery-ui": "~1.12.1",
+                "yiisoft/yii2": "~2.0.4"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\jui\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                }
+            ],
+            "description": "The Jquery UI extension for the Yii framework",
+            "keywords": [
+                "jQuery UI",
+                "yii2"
+            ],
+            "time": "2017-12-24T16:46:34+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",

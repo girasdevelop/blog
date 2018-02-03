@@ -18,7 +18,8 @@
         "yiisoft/yii2": "~2.0.13",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "pendalf89/yii2-blog": "*"
+        "pendalf89/yii2-blog": "*",
+        "sergmoro1/yii2-blog-tools": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
