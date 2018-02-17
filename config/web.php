@@ -1,5 +1,8 @@
 <?php
 
+use pendalf89\filemanager\Module as FilemanagerModule;
+use pendalf89\filemanager\controllers\FileController;
+
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
@@ -43,14 +46,46 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '<controller>/<action>' => '<controller>/<action>',
             ],
         ],
-        */
+    ],
+    'modules' => [
+        'filemanager' => [
+            'class' => FilemanagerModule::class,
+            'controllerMap' => [
+                '' => FileController::class,
+                'index' => FileController::class,
+            ],
+            // Upload routes
+            'routes' => [
+                // Base absolute path to web directory
+                'baseUrl' => '',
+                // Base web directory url
+                'basePath' => '@app/web',
+                // Path for uploaded files in web directory
+                'uploadPath' => 'uploads',
+            ],
+            // Thumbnails info
+            'thumbs' => [
+                'small' => [
+                    'name' => 'Мелкий',
+                    'size' => [100, 100],
+                ],
+                'medium' => [
+                    'name' => 'Средний',
+                    'size' => [300, 200],
+                ],
+                'large' => [
+                    'name' => 'Большой',
+                    'size' => [500, 400],
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];

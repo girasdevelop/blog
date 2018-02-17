@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "be69932fcf2f9a380594ccb2b500433f",
+    "content-hash": "e92a00c30de17afe53415bac92b1c377",
     "packages": [
         {
             "name": "2amigos/yii2-file-upload-widget",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/2amigos/yii2-file-upload-widget.git",
-                "reference": "9e24da07dfa70154a84159c80376f9b4c0bc93a0"
+                "reference": "cfa43f291f581a9e46fc0f14e94db642608063a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/2amigos/yii2-file-upload-widget/zipball/9e24da07dfa70154a84159c80376f9b4c0bc93a0",
-                "reference": "9e24da07dfa70154a84159c80376f9b4c0bc93a0",
+                "url": "https://api.github.com/repos/2amigos/yii2-file-upload-widget/zipball/cfa43f291f581a9e46fc0f14e94db642608063a6",
+                "reference": "cfa43f291f581a9e46fc0f14e94db642608063a6",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "yii 2",
                 "yii2"
             ],
-            "time": "2018-01-22T07:58:21+00:00"
+            "time": "2018-02-07T21:47:33+00:00"
         },
         {
             "name": "2amigos/yii2-gallery-widget",
@@ -124,6 +124,46 @@
                 "yii2"
             ],
             "time": "2017-09-09T16:01:44+00:00"
+        },
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "6157c7bc77bfca7e9aa75f529f3f612122d9a2f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/6157c7bc77bfca7e9aa75f529f3f612122d9a2f1",
+                "reference": "6157c7bc77bfca7e9aa75f529f3f612122d9a2f1",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdullah Almsaeed",
+                    "email": "abdullah@almsaeedstudio.com"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+            "homepage": "https://adminlte.io/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2017-07-08T17:45:57+00:00"
         },
         {
             "name": "bower-asset/blueimp-canvas-to-blob",
@@ -470,6 +510,47 @@
             "time": "2018-01-17T11:51:05+00:00"
         },
         {
+            "name": "ckeditor/ckeditor",
+            "version": "4.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ckeditor/ckeditor-releases.git",
+                "reference": "97b8f412f6b36985c734daf0717e81009a885dba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/97b8f412f6b36985c734daf0717e81009a885dba",
+                "reference": "97b8f412f6b36985c734daf0717e81009a885dba",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+",
+                "LGPL-2.1+",
+                "MPL-1.1+"
+            ],
+            "authors": [
+                {
+                    "name": "CKSource",
+                    "homepage": "http://cksource.com"
+                }
+            ],
+            "description": "JavaScript WYSIWYG web text editor.",
+            "homepage": "http://ckeditor.com",
+            "keywords": [
+                "CKEditor",
+                "editor",
+                "fckeditor",
+                "html",
+                "javascript",
+                "richtext",
+                "text",
+                "wysiwyg"
+            ],
+            "time": "2017-09-13T13:09:47+00:00"
+        },
+        {
             "name": "creocoder/yii2-nested-sets",
             "version": "0.9.0",
             "source": {
@@ -614,6 +695,139 @@
             "time": "2015-09-19T16:54:05+00:00"
         },
         {
+            "name": "itstructure/yii2-admin-module",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itstructure/yii2-admin-module.git",
+                "reference": "94b3daae3847df4f72aff98b85dd3ec86c779199"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itstructure/yii2-admin-module/zipball/94b3daae3847df4f72aff98b85dd3ec86c779199",
+                "reference": "94b3daae3847df4f72aff98b85dd3ec86c779199",
+                "shasum": ""
+            },
+            "require": {
+                "almasaeed2010/adminlte": "2.4.0",
+                "itstructure/yii2-field-widgets": "^1.0.0",
+                "yiisoft/yii2": "~2.0.5",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Itstructure\\AdminModule\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Girnik",
+                    "email": "girnikandrey@gmail.com"
+                }
+            ],
+            "description": "Admin module for Yii2 Framework with AdminLTE template",
+            "keywords": [
+                "admin",
+                "dashboard",
+                "module",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2018-02-13T09:59:32+00:00"
+        },
+        {
+            "name": "itstructure/yii2-ckeditor",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itstructure/yii2-ckeditor.git",
+                "reference": "ac7b108854a87ffc0b391cfa52f16c99c2d23747"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itstructure/yii2-ckeditor/zipball/ac7b108854a87ffc0b391cfa52f16c99c2d23747",
+                "reference": "ac7b108854a87ffc0b391cfa52f16c99c2d23747",
+                "shasum": ""
+            },
+            "require": {
+                "ckeditor/ckeditor": "~4.7.1",
+                "yiisoft/yii2": "~2.0.5"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "Itstructure\\CKEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Girnik",
+                    "email": "girnikandrey@gmail.com"
+                }
+            ],
+            "description": "CKEditor widget for Yii2 Framework",
+            "keywords": [
+                "CKEditor",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2018-02-04T10:31:43+00:00"
+        },
+        {
+            "name": "itstructure/yii2-field-widgets",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itstructure/yii2-field-widgets.git",
+                "reference": "5adb7e2983b2d5ea85a8da4440c7399175e0ee01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itstructure/yii2-field-widgets/zipball/5adb7e2983b2d5ea85a8da4440c7399175e0ee01",
+                "reference": "5adb7e2983b2d5ea85a8da4440c7399175e0ee01",
+                "shasum": ""
+            },
+            "require": {
+                "itstructure/yii2-ckeditor": "^1.0.0",
+                "yiisoft/yii2": "~2.0.5",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "Itstructure\\FieldWidgets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Girnik",
+                    "email": "girnikandrey@gmail.com"
+                }
+            ],
+            "description": "The form field widgets for Yii2 Framework with multilanguage mode support.",
+            "keywords": [
+                "field",
+                "multilanguage",
+                "widget",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2018-02-13T07:00:52+00:00"
+        },
+        {
             "name": "kartik-v/yii2-krajee-base",
             "version": "dev-master",
             "source": {
@@ -670,12 +884,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-alert.git",
-                "reference": "7348b0d047695a3e552888c481ce250cbc1f9d0d"
+                "reference": "604670a55bdaed99482b5df18a36352aad3fb82c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-alert/zipball/7348b0d047695a3e552888c481ce250cbc1f9d0d",
-                "reference": "7348b0d047695a3e552888c481ce250cbc1f9d0d",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-alert/zipball/604670a55bdaed99482b5df18a36352aad3fb82c",
+                "reference": "604670a55bdaed99482b5df18a36352aad3fb82c",
                 "shasum": ""
             },
             "require": {
@@ -694,7 +908,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD 3-Clause"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -717,7 +931,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-03-10T17:08:52+00:00"
+            "time": "2018-02-07T11:43:46+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-select2",
@@ -725,12 +939,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-select2.git",
-                "reference": "32761540146d1d5b65c383730a9c9c78ee449069"
+                "reference": "d46c74c67536622c8e38bcb0e7bcaac981832936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/32761540146d1d5b65c383730a9c9c78ee449069",
-                "reference": "32761540146d1d5b65c383730a9c9c78ee449069",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/d46c74c67536622c8e38bcb0e7bcaac981832936",
+                "reference": "d46c74c67536622c8e38bcb0e7bcaac981832936",
                 "shasum": ""
             },
             "require": {
@@ -770,7 +984,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-12-03T08:02:21+00:00"
+            "time": "2018-02-09T11:39:11+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-typeahead",
@@ -1035,12 +1249,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sergmoro1/yii2-blog-tools.git",
-                "reference": "00f6f0d042cbdd414e07ab854f726167ee1597ab"
+                "reference": "438537458af0f0e681ed14c97f990086b9347a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sergmoro1/yii2-blog-tools/zipball/00f6f0d042cbdd414e07ab854f726167ee1597ab",
-                "reference": "00f6f0d042cbdd414e07ab854f726167ee1597ab",
+                "url": "https://api.github.com/repos/sergmoro1/yii2-blog-tools/zipball/438537458af0f0e681ed14c97f990086b9347a72",
+                "reference": "438537458af0f0e681ed14c97f990086b9347a72",
                 "shasum": ""
             },
             "require": {
@@ -1076,7 +1290,7 @@
                 "tag",
                 "yii2"
             ],
-            "time": "2018-02-02T14:55:22+00:00"
+            "time": "2018-02-07T07:05:25+00:00"
         },
         {
             "name": "sergmoro1/yii2-byone-uploader",
@@ -1084,12 +1298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sergmoro1/yii2-byone-uploader.git",
-                "reference": "0b6c1b8214efd5e3686d4260ee45849b5c5d5adf"
+                "reference": "c579df387673486444eaf45c811ae1ca2f67c5e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sergmoro1/yii2-byone-uploader/zipball/0b6c1b8214efd5e3686d4260ee45849b5c5d5adf",
-                "reference": "0b6c1b8214efd5e3686d4260ee45849b5c5d5adf",
+                "url": "https://api.github.com/repos/sergmoro1/yii2-byone-uploader/zipball/c579df387673486444eaf45c811ae1ca2f67c5e6",
+                "reference": "c579df387673486444eaf45c811ae1ca2f67c5e6",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1337,7 @@
                 "uploader",
                 "yii2"
             ],
-            "time": "2018-02-01T09:22:00+00:00"
+            "time": "2018-02-07T09:41:25+00:00"
         },
         {
             "name": "sergmoro1/yii2-lookup",
@@ -1374,12 +1588,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ada9022679d9c73d3a119fe04c3c76d83aeda3b0"
+                "reference": "1213294a73c628d963dba9e1d672457c76e8c814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ada9022679d9c73d3a119fe04c3c76d83aeda3b0",
-                "reference": "ada9022679d9c73d3a119fe04c3c76d83aeda3b0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/1213294a73c628d963dba9e1d672457c76e8c814",
+                "reference": "1213294a73c628d963dba9e1d672457c76e8c814",
                 "shasum": ""
             },
             "require": {
@@ -1466,7 +1680,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2018-02-01T09:13:19+00:00"
+            "time": "2018-02-12T22:12:05+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1474,12 +1688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "c84c84dcaf6d76f3b6c5fc4bce36e1173e042d81"
+                "reference": "30eee2b651453df49773d568713f7c9f9aa88053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/c84c84dcaf6d76f3b6c5fc4bce36e1173e042d81",
-                "reference": "c84c84dcaf6d76f3b6c5fc4bce36e1173e042d81",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/30eee2b651453df49773d568713f7c9f9aa88053",
+                "reference": "30eee2b651453df49773d568713f7c9f9aa88053",
                 "shasum": ""
             },
             "require": {
@@ -1526,7 +1740,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2018-02-02T14:54:19+00:00"
+            "time": "2018-02-05T12:12:44+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -1632,12 +1846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-jui.git",
-                "reference": "10492270c9a625e4785b59a1ac6155908eac8e37"
+                "reference": "0438b11090198e9bc8db415429f9bc306cd3f986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/10492270c9a625e4785b59a1ac6155908eac8e37",
-                "reference": "10492270c9a625e4785b59a1ac6155908eac8e37",
+                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/0438b11090198e9bc8db415429f9bc306cd3f986",
+                "reference": "0438b11090198e9bc8db415429f9bc306cd3f986",
                 "shasum": ""
             },
             "require": {
@@ -1652,7 +1866,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\jui\\": ""
+                    "yii\\jui\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1661,8 +1875,20 @@
             ],
             "authors": [
                 {
+                    "name": "Alexander Kochetov",
+                    "email": "creocoder@gmail.com"
+                },
+                {
                     "name": "Qiang Xue",
                     "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru"
                 }
             ],
             "description": "The Jquery UI extension for the Yii framework",
@@ -1670,7 +1896,7 @@
                 "jQuery UI",
                 "yii2"
             ],
-            "time": "2017-12-24T16:46:34+00:00"
+            "time": "2018-02-06T14:24:55+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -2062,12 +2288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d6e741d47d59e592cdd7696ab1e670d8a870dbe9"
+                "reference": "c8db65327b73c8e0fa1c9e4d8d179d14a185b13a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d6e741d47d59e592cdd7696ab1e670d8a870dbe9",
-                "reference": "d6e741d47d59e592cdd7696ab1e670d8a870dbe9",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/c8db65327b73c8e0fa1c9e4d8d179d14a185b13a",
+                "reference": "c8db65327b73c8e0fa1c9e4d8d179d14a185b13a",
                 "shasum": ""
             },
             "require": {
@@ -2104,7 +2330,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2018-02-02T13:37:27+00:00"
+            "time": "2018-02-05T15:03:34+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2430,12 +2656,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "ad39fb2becfa9ddc4b23b5e85c88123462d86ef2"
+                "reference": "2870950c8eb446517e2e29acf8bbc209ed3ab0e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/ad39fb2becfa9ddc4b23b5e85c88123462d86ef2",
-                "reference": "ad39fb2becfa9ddc4b23b5e85c88123462d86ef2",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/2870950c8eb446517e2e29acf8bbc209ed3ab0e4",
+                "reference": "2870950c8eb446517e2e29acf8bbc209ed3ab0e4",
                 "shasum": ""
             },
             "require": {
@@ -2467,7 +2693,7 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2018-01-31T13:23:25+00:00"
+            "time": "2018-02-12T14:33:22+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -2513,12 +2739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "9a84d1c09fbf7918e9d3cf998b83ecbf7555261d"
+                "reference": "9f901e29c93dae4aa77c0bb161df4276f9c9a1be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9a84d1c09fbf7918e9d3cf998b83ecbf7555261d",
-                "reference": "9a84d1c09fbf7918e9d3cf998b83ecbf7555261d",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9f901e29c93dae4aa77c0bb161df4276f9c9a1be",
+                "reference": "9f901e29c93dae4aa77c0bb161df4276f9c9a1be",
                 "shasum": ""
             },
             "require": {
@@ -2568,7 +2794,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-12-21T16:59:48+00:00"
+            "time": "2018-02-11T18:49:29+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3175,16 +3401,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "dev-master",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "ceaeb5d93eb3cf16184957e7141bd34a1edd44e1"
+                "reference": "cd0871b3975fb7fc44d11314fd1ee20925fce4f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/ceaeb5d93eb3cf16184957e7141bd34a1edd44e1",
-                "reference": "ceaeb5d93eb3cf16184957e7141bd34a1edd44e1",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/cd0871b3975fb7fc44d11314fd1ee20925fce4f5",
+                "reference": "cd0871b3975fb7fc44d11314fd1ee20925fce4f5",
                 "shasum": ""
             },
             "require": {
@@ -3221,7 +3447,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2017-11-16T09:47:49+00:00"
+            "time": "2017-07-01T08:51:00+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -3634,12 +3860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "7be416f731863fef6bb32134fc9c73c525acc6d6"
+                "reference": "4de97e8d0ff6d4822f0b4d1486b63edf9028eac8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/7be416f731863fef6bb32134fc9c73c525acc6d6",
-                "reference": "7be416f731863fef6bb32134fc9c73c525acc6d6",
+                "url": "https://api.github.com/repos/symfony/console/zipball/4de97e8d0ff6d4822f0b4d1486b63edf9028eac8",
+                "reference": "4de97e8d0ff6d4822f0b4d1486b63edf9028eac8",
                 "shasum": ""
             },
             "require": {
@@ -3694,7 +3920,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-31T10:41:42+00:00"
+            "time": "2018-02-09T15:48:09+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -3702,12 +3928,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "7db468ce32417fd021620188bc4803dfa674fadb"
+                "reference": "a77f0d8ddd26167edb45d702a20c2d502b09e8c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/7db468ce32417fd021620188bc4803dfa674fadb",
-                "reference": "7db468ce32417fd021620188bc4803dfa674fadb",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/a77f0d8ddd26167edb45d702a20c2d502b09e8c4",
+                "reference": "a77f0d8ddd26167edb45d702a20c2d502b09e8c4",
                 "shasum": ""
             },
             "require": {
@@ -3747,7 +3973,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:38:11+00:00"
+            "time": "2018-02-03T14:58:56+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -3811,12 +4037,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "7a4b848a89dc1ec3887c22197d19916d6f99ca4b"
+                "reference": "a523f26e97bb34106d5c01e49e0c0d1320b79b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/7a4b848a89dc1ec3887c22197d19916d6f99ca4b",
-                "reference": "7a4b848a89dc1ec3887c22197d19916d6f99ca4b",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a523f26e97bb34106d5c01e49e0c0d1320b79b0a",
+                "reference": "a523f26e97bb34106d5c01e49e0c0d1320b79b0a",
                 "shasum": ""
             },
             "require": {
@@ -3866,7 +4092,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-19T07:24:33+00:00"
+            "time": "2018-02-04T13:10:55+00:00"
         },
         {
             "name": "symfony/finder",
@@ -3874,12 +4100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "db4ab92faa7b893bd96e6a2e29251ff8bd2a904d"
+                "reference": "84a2cec747853d7a47c2c402a9de4b7fbf3886b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/db4ab92faa7b893bd96e6a2e29251ff8bd2a904d",
-                "reference": "db4ab92faa7b893bd96e6a2e29251ff8bd2a904d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/84a2cec747853d7a47c2c402a9de4b7fbf3886b2",
+                "reference": "84a2cec747853d7a47c2c402a9de4b7fbf3886b2",
                 "shasum": ""
             },
             "require": {
@@ -3915,7 +4141,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:38:11+00:00"
+            "time": "2018-02-11T17:18:00+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3982,12 +4208,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a8906f0709fd3b0e6020886014aeb423f584993e"
+                "reference": "b33f2fbe7349704d2a06bacc5a15b1a4c94e468f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a8906f0709fd3b0e6020886014aeb423f584993e",
-                "reference": "a8906f0709fd3b0e6020886014aeb423f584993e",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/b33f2fbe7349704d2a06bacc5a15b1a4c94e468f",
+                "reference": "b33f2fbe7349704d2a06bacc5a15b1a4c94e468f",
                 "shasum": ""
             },
             "require": {
@@ -4032,7 +4258,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-21T19:07:38+00:00"
+            "time": "2018-02-11T17:18:00+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -4130,12 +4356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "dc4cedb465d5f6965d121200f1495727bfd7d543"
+                "reference": "7311e6b0aeaf3eb59084300dd323e2c7dd81596d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/dc4cedb465d5f6965d121200f1495727bfd7d543",
-                "reference": "dc4cedb465d5f6965d121200f1495727bfd7d543",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/7311e6b0aeaf3eb59084300dd323e2c7dd81596d",
+                "reference": "7311e6b0aeaf3eb59084300dd323e2c7dd81596d",
                 "shasum": ""
             },
             "require": {
@@ -4169,7 +4395,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2018-01-18T16:03:52+00:00"
+            "time": "2018-02-07T14:46:34+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -4177,12 +4403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-faker.git",
-                "reference": "ed09caef15777a867f386158f84ea75b84053dff"
+                "reference": "1d2154a5053dd1a628455d81542e3436d653047e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/ed09caef15777a867f386158f84ea75b84053dff",
-                "reference": "ed09caef15777a867f386158f84ea75b84053dff",
+                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/1d2154a5053dd1a628455d81542e3436d653047e",
+                "reference": "1d2154a5053dd1a628455d81542e3436d653047e",
                 "shasum": ""
             },
             "require": {
@@ -4216,7 +4442,7 @@
                 "faker",
                 "yii2"
             ],
-            "time": "2017-08-02T13:01:06+00:00"
+            "time": "2018-02-05T08:50:49+00:00"
         },
         {
             "name": "yiisoft/yii2-gii",
